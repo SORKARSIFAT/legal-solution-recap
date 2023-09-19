@@ -4,37 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Legal Justice</title>
-    
-   
-    <script src="https://cdn.tailwindcss.com"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"></script>
+ <script src="https://cdn.tailwindcss.com"></script> 
 </head>
-<body class="">
+<body class="bg-slate-200	">
 <!-- navbar  -->
   <header>
-    <section class="pt-4">
-       <div class="block flex justify-around">
+    <section class="pt-4 mt-8">
+       <div class="block flex justify-around 		">
              <div class="block">
-                <h1>Justice</h1>
+                <h1 class=" font-bold text-2xl"><a href="#">Justice</a></h1>
              </div>
                 <div> 
-                    <ul class="block flex gap-4 list-none">
-                    <li>Home</li>
-                    <li>Services</li>
-                    <li> Blog</li>
-                    <li>Cases</li>
-                    <li>Contact Us</li>
+                    <ul class="block flex gap-4 list-none font-semibold">
+                    <li> <a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Cases</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact Us</a></li>
                     </ul>
                 </div>
-                <button>Free Consultation</button>
+                <button class="bg-orange-400 hover:bg-orange-500 text-white font-bold py-2 px-4 rounded">Free Consultation</button>
             </div>
     </section>
   </header>
+
   <main>
-    <section>
+   
+<section >
+  <!-- banner img -->
+  <div  class="bg-[url('/images/banner.png')] bg-contain shrink-0 bg-centerw-screen h-screen rounded mt-16 mx-20 bg-no-repeat 	">
+    <div class="text-white text-center pt-40 ">
+      <p class="text-4xl gap-1 font-mono">We Provide Effective <br> Legal Solutions</p>
+      <p class="mt-4 text-lg" >There are many variations of passages of Lorem Ipsum available,<br> but the majority have suffered alteration in some form, by injected humour.</p>
+  
+    </div>
+    <div class="block text-center pt-8  ">
+      <input class="rounded w-2/6 h-auto" type="text">
+      <button class="bg-orange-400 hover:bg-orange-500 text-white font-bold py-2 px-8 rounded">Search</button>
+  
+    </div>
+  </div>
+  <!-- text  -->
+  <div class="text-center">
+    <p class="text-2xl font-mono font-semibold">The Legal Practice Area</p>
+    <p class="text-lg	pt-4">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
+  </div>
 
 
-    </section>
+  <!-- the case area -->
+  
+    
+  <div class=" mt-16 grid grid-cols-3 gap-4 flex justify-center justify-items-center  text-center">
+    <div class="card w-2/3	 bg-base-100 shadow-xl p-4  " >
+      <img class=" 	" src="images/business.png" alt="">
+      <h1 class="text-2xl font-mono font-semibold mt-4 "> Business Law </h1>
+      <p class="pt-4 font-normal">There are many variations of passages of Lorem Ipsum available but the majority  have suffered alteration in some form by injected humour.</p>
+      
+  </div>
+  <div class="card w-2/3	 bg-base-100 shadow-xl p-4  " >
+    <img class="" src="images/education.png" alt="">
+    <h1 class="text-2xl font-mono font-semibold mt-4 "> Education Law </h1>
+    <p class="pt-4 font-normal">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour.</p>
+    
+</div>
+<div class="card w-2/3	 bg-base-100 shadow-xl p-4  " >
+  <img class="" src="images/criminal.png" alt="">
+  <h1 class="text-2xl font-mono font-semibold mt-4 "> Criminal Law </h1>
+  <p class="pt-4 font-normal 		">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour.</p>
+  
+</div>
+<div class="card w-2/3  bg-base-100 shadow-xl p-4  " >
+  <img class="" src="images/child.png" alt="">
+  <h1 class="text-2xl font-mono font-semibold mt-4 ">Child Support</h1>
+  <p class="pt-4 font-normal 		">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour.</p>
+  
+</div>
+<div class="card w-2/3  bg-base-100 shadow-xl p-4  " >
+  <img class="" src="images/divorce.png" alt="">
+  <h1 class="text-2xl font-mono font-semibold mt-4 "> Divorce Law</h1>
+  <p class="pt-4 font-normal 	">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour.</p>
+  
+</div>
+<div class="card w-2/3 bg-base-100 shadow-xl p-4  " >
+  <img class="pt-4 font-medium	" src="images/tax.png" alt="">
+  <h1 class="text-2xl font-mono font-semibold mt-4 "> Tax Law </h1>
+  <p class="pt-4 font-normal ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour.</p>
+  
+</div>
+
+</section>
+
+    
   </main>
 </body>
 </html>
