@@ -24,7 +24,7 @@
                     <li><a href="#">Contact Us</a></li>
                     </ul>
                 </div>
-                <button class="bg-orange-400 hover:bg-orange-500 text-white font-bold py-2 px-4 rounded">Free Consultation</button>
+                <button class="bg-orange-400 hover:bg-orange-500 text-white font-bold py-2 px-4 rounded cursor-progress ">Free Consultation</button>
             </div>
     </section>
   </header>
@@ -41,7 +41,7 @@
     </div>
     <div class="block text-center pt-8  ">
       <input class="rounded w-2/6 h-auto" type="text">
-      <button class="bg-orange-400 hover:bg-orange-500 text-white font-bold py-2 px-8 rounded">Search</button>
+      <button class="bg-orange-400 hover:bg-orange-500 text-white font-bold py-2 px-8 rounded cursor-progress">Search</button>
   
     </div>
   </div>
@@ -49,7 +49,9 @@
   <div class="text-center">
     <p class="text-3xl font-mono font-semibold">The Legal Practice Area</p>
     <p class="text-lg	pt-4 "> A legal practice area refers to a specific area or field of law in which an <br> attorney specializes and provides legal services</p>
+
   </div>
+  
 
 
   <!-- the case area -->
@@ -98,7 +100,7 @@
 </section>
 <!-- client part -->
 <div class="text-center">
-  <p class="text-3xl font-mono font-semibold mt-6">What Our Client Say</p>
+  <p class="text-3xl font-mono font-semibold mt-12">What Our Client Say</p>
   <p class="text-lg	pt-4 ">We appreciate the dedicated support, insightful advice, and seamless <br> communication throughout our legal process.Highly recommended!</p>
 </div>
 
@@ -162,37 +164,231 @@
 </div>
 
 <!-- Frequently Asked part -->
-<div class="text-center">
+<div class="text-center mt-12">
   <p class="text-3xl font-mono font-semibold mt-6">Frequently Asked Any Questions</p>
   <p class="text-lg	pt-4 ">Frequently asked questions (FAQs) typically address common queries related to a particular topic. Could you please specify <br> the topic or context for which you'd like to see sample FAQs?</p>
 </div> 
+
 <div class="mt-16 flex mx-20 justify-between	">
  
-  <section class="grid grid-row-4  divide-y  ">
-    <details open class="group  text-lg">
-      <summary class="flex cursor-pointer   font-semibold text-gray-800 marker:[font-size:0px]">
-        What is a web developer?
-        <svg class="h-6 w-6 rotate-0 transform text-gray-400 group-open:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path>
+  <div class="space-y-4">
+    <!-- * num1 -->
+    <details class="group [&_summary::-webkit-details-marker]:hidden" open>
+      <summary
+        class="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900"
+      >
+        <h2 class="font-medium">
+          What Is A Web Developer?
+        </h2>
+  
+        <svg
+          class="h-5 w-5 shrink-0 transition duration-300 group-open:-rotate-180"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M19 9l-7 7-7-7"
+          />
         </svg>
       </summary>
-      <p class="text-gray-500">A web developer is a programmer who makes websites, and apps for the World Wide Web</p>
+  
+      <p class="mt-4 px-4 leading-relaxed text-gray-700">
+        A web developer is a programmer who develops World Wide Web applications using a client–server model. The applications typically use HTML, CSS, and JavaScript in the client, and any general-purpose programming language in the server.
+      </p>
     </details>
-    <details open class="group py-1 text-lg ">
-      <summary class="flex cursor-pointer flex-row items-center justify-between  font-semibold text-gray-800 marker:[font-size:0px]">
-        Question 1
-        <svg class="h-6 w-6 rotate-0 transform text-gray-400 group-open:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path>
+  <!--* num2 -->
+    <details class="group [&_summary::-webkit-details-marker]:hidden">
+      <summary
+        class="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900"
+      >
+        <h2 class="font-medium">
+          What Is Dom?
+        </h2>
+  
+        <svg
+          class="h-5 w-5 shrink-0 transition duration-300 group-open:-rotate-180"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M19 9l-7 7-7-7"
+          />
         </svg>
       </summary>
-      <p class="text-gray-500">Answer 1.</p>
+  
+      <p class="mt-4 px-4 leading-relaxed text-gray-700">
+        The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects; that way, programming languages can interact with the page.
+      </p>
     </details>
-  </section>
+<!--* num3 -->
+    <details class="group [&_summary::-webkit-details-marker]:hidden">
+      <summary
+        class="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900"
+      >
+        <h2 class="font-medium">
+          What Is Tailwind CSS
+        </h2>
+  
+        <svg
+          class="h-5 w-5 shrink-0 transition duration-300 group-open:-rotate-180"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M19 9l-7 7-7-7"
+          />
+        </svg>
+      </summary>
+  
+      <p class="mt-4 px-4 leading-relaxed text-gray-700">
+        Tailwind CSS is an open source CSS framework. The main feature of this library is that, unlike other CSS frameworks like Bootstrap, it does not provide a series of predefined classes for elements such as buttons or tables
+      </p>
+    </details>
+    <!--* num 4 -->
+    <details class="group [&_summary::-webkit-details-marker]:hidden">
+      <summary
+        class="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900"
+      >
+        <h2 class="font-medium">
+         What Is React?
+        </h2>
+  
+        <svg
+          class="h-5 w-5 shrink-0 transition duration-300 group-open:-rotate-180"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M19 9l-7 7-7-7"
+          />
+        </svg>
+      </summary>
+  
+      <p class="mt-4 px-4 leading-relaxed text-gray-700">
+        React is a free and open-source front-end JavaScript library for building user interfaces based on components. It is maintained by Meta and a community of individual developers and companies. React can be used to develop single-page, mobile, or server-rendered applications with frameworks like Next.js
+      </p>
+    </details>
+    <!--* num--5 -->
+    <details class="group [&_summary::-webkit-details-marker]:hidden">
+      <summary
+        class="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900"
+      >
+        <h2 class="font-medium">
+          What Does a Front-End Developer Do?
+        </h2>
+  
+        <svg
+          class="h-5 w-5 shrink-0 transition duration-300 group-open:-rotate-180"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M19 9l-7 7-7-7"
+          />
+        </svg>
+      </summary>
+  
+      <p class="mt-4 px-4 leading-relaxed text-gray-700">
+        Front-end developers create user interfaces (UI). UI is the graphical layout of an application that determines what each part of a site or application does and how it will look. "I've always found crafting polished user interactions that surprise and delight users to be the most rewarding and engaging task," says Mari Batilando, a software engineer at Meta. "In order to do this, you need to both have an eye for detail and a rock-solid understanding of the platform."
+      </p>
+    </details>
+
+  </div>
+  
   <img src="images/faq.png" alt="" srcset="">
  
 </div>
+<!-- Contact Section -->
 </main>
 <footer>
+  <!-- component -->
+<div class="container text-left text-white bg-black p-8 mt-16  ">
+  <div class="sm:flex mb-4">
+<div class="sm:w-1/4 h-auto">
+    <div class=" ">
+      <h1 class="text-2xl font-mono ">Justice</h1>
+      <p class=" mt-4 text-lg">Justice entails fairness, impartiality, and the application of laws to uphold rights, resolve disputes, and maintain societal order and equality</p>
+
+    </div>
+
+    
+</div>
+<div class="sm:w-1/4 h-auto sm:mt-0 pl-8  ">
+    <div class=" ">
+      <h1 class="text-2xl font-mono">UseFull Link</h1>
+      <ul class="list-reset leading-normal mt-4">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#"> Blog</a></li>
+        <li><a href="#"> Case</a></li>
+        <li><a href="#">Contact Us</a></li>
+    </ul>
+
+    </div>
+    
+  
+
+</div>
+<div class="sm:w-1/4 h-auto sm:mt-0 mt-8">
+          <div class="text-2xl font-mono">Contact Now</div>
+   <div>
+    <p class="mt-4"> 1232 Mirpur, Dhaka
+      <br>Bangladesh</p>
+   </div>
+   <div class="mt-4">
+    <p>+88 01750 000 000</p>
+    <p>+88 01750 000 000</p>
+   </div>
+   <div class="mt-4">
+    <h4>sorkarSifat@gmail.com</h4>
+    <h4>mominul@proton.me</h4>
+   </div>
+
+  
+
+</div>
+  <div class="sm:w-1/2 sm:mt-0 mt-8 h-auto">
+      <div class=" text-2xl font-mono">Subscribe</div>
+      <p class="mt-4">Subscribe for our latest & Articles. We Won’t Give You Spam Mails </p>
+      <div class="mt-4 flex">
+          <input type="email" class="p-2 rounded h-auto bg-white text-black" placeholder="Your email address">
+          <button class="bg-orange-400 hover:bg-orange-500 text-white font-bold py-2 px-4 rounded-lg cursor-progress">Subscribe</button>
+      </div>
+  </div>
+
+</div>
+<ul class="flex justify-center pt-8 ">
+  <li class="pl-8"><a href="#">© Sifat All rights reserved</a></li>
+  <li class="pl-8"> <a href="#">Privacy policy</a></li>
+  <li class="pl-8"> <a href="#">Terms of service</a></li>
+</ul>
+</div>
+
 
 </footer>
    <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script> 
